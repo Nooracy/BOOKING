@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-body>
+
+<servlet>
+<servlet-name>BookingServlet</servlet-name>
+<servlet-class>Action.BookingServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>BookingServlet</servlet-name>
+<url-pattern>/control</url-pattern>
+</servlet-mapping>
+
+</xml-body>
